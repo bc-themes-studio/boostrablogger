@@ -1,0 +1,139 @@
+﻿
+Skip to content
+Using Gmail with screen readers
+Fwd: Welcome: An account for topafricatours.com has been created
+Inbox
+	x
+Dancing Simba
+	
+7:16 AM (14 hours ago)
+	
+to Luck
+
+
+---------- Forwarded message ---------
+From: InfoCom Center <lembu@infocomcenter.com>
+Date: Thu, 6 Feb 2020 at 18:05
+Subject: Welcome: An account for topafricatours.com has been created
+To: David John - Dancing Simba Safaris <dancingsimbasafaris@gmail.com>
+
+
+Dear David John - Dancing Simba Safaris
+
+NB: 
+
+    Please report any change of email by sending us the alternative email. 
+    You are also advised to submit a secondary email related to the website or domain management that will receive invoices, notices and support from us
+    Recommended emails are those not related to topafricatours.com. We highly recommend gmail.
+    We will not provide senstive information regarding your account to emails other than the submitted one. 
+
+Here is the information for topafricatours.com web hosting account
+
+Package Information
+
+Web hosting plan:  NH Basic
+
+Cpanel Login Information
+Login through cpanel to add, delete, or modify and customize some settings for your hosting account. Features  include Server files management, Email management, SEO tools, Security tools, Site statistics tools, Databases management, Domain management, PHP Version configuration, Script installation like Wordpress, Joomla, Drupal, Site building with plenty of free templates, and much more.
+
+Available URLs you can choose one of the following
+
+http://72.52.128.216/cpanel
+
+Once your domain dns resolves to the hosting server, you can use the URL
+
+cpanel.topafricatours.com
+
+http://topafricatours.com/cpanel
+
+NB: domain registration or change of nameservers normally take up to 24hrs and some few cases up to 72 hours to resolve over all ISPs.
+
+Please note also that, if you are having login problems with one cpanel.topafricatours.com remember to use http://topafricatours.com/cpanel and vice versa.
+
+Account Information
+
+IP Address: 72.52.128.216
+Username: topafricatours
+Password: Iw#)l{(L.gS{Y~oDZ
+
+Email Setup
+
+Catch all email with your default email account
+
+POP3 Host Address : mail.topafricatours.com
+SMTP Host Address: mail.topafricatours.com 
+Username: topafricatours 
+Password: Iw#)l{(L.gS{Y~oDZ
+
+Additional mail accounts that you add
+
+POP3 Host Address : mail.topafricatours.com
+SMTP Host Address: mail.topafricatours.com
+Username : The FULL email address that you are picking up from (e.g. email_id@topafricatours.com). 
+If your email client cannot accept a @ symbol, then you may replace this with a backslash .
+Password : As specified in your control panel
+
+Webmail Login Information
+If your webmail has been created through cpanel, you can use these links to login using thes URLS
+
+http://72.52.128.216/webmail  OR 
+
+webmail.topafricatours.com OR
+
+http://topafricatours.com/webmail
+
+Please note that, if you are having login problems with one URL remember to use the other ones.
+
+Use your email as the username and password created in the cpanel
+
+FTP Login Information
+
+FTP Username and password
+FTP Username: topafricatours
+FTP Password: Iw#)l{(L.gS{Y~oDZ
+
+NB:You can log in by FTP using either the domain name or the IP address.
+
+Upload your web files into the " public_html " directory. CGI files have to be placed in the cgi-bindirectory located one level up the public_html directory.
+
+If you recently changed your dns record or your domain was only recently registered, you may have to use the IP address until the change is reflected across all the DNS servers around the Internet worldwide which normal complete from few hours to about 72 hours.
+
+NB: By receiving the password and username and other critical credetials via this email and by agreed to host your website with us, you accept the web hosting terms and conditions posted in the link below
+
+Web Hosting Terms and Conditions at https://infocomcenter.com/what-we-do/website-and-internet-consultancy/web-hosting-terms-of-services/
+
+Point Your Domain to Our Nameservers
+If your domain name was previously hosted somewhere else, you will need to update your DNS information to the following:
+
+ns1.hostcloud1.top
+ip: 72.52.219.238
+ns1.hostcloud1.top
+ip: 72.52.219.157
+ 
+
+If you have any questions about your account, please direct them to lembu@infocomcenter.com for fastest response.
+
+You can upgrade or downgrade to these hosting plans at any time
+
+    Starter plan: (1GB of disk space and UnlimitedGB of monthly bandwidth)
+    Basic plan: (2GB of disk space and UnlimitedGB of monthly bandwidth)
+    Premium plan: (5GB of disk space and UnlimitedGB of monthly bandwidth)
+    Unlimited plan: (UnlimitedGB disk space and UnlimitedGB monthly bandwidth)
+
+If you upgrade at the middle we always charge the upgrade fee based on:
+
+    Upgrade fee = New Plan Monthly balance - Old Plan monthly balance 
+
+We also do Effective and whitehat SEO to rank your industry keywords on first page of Google result page
+
+Thanks for your business and thank you for choosing our company.
+
+Lemburis- Technical Consultant
+
+- InfoCom Center
+
+Office Tel#: +255732978002, Mobile#: +255787665050/+255755646470/
+
+	
+	
+	

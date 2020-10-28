@@ -1,0 +1,157 @@
+<b:if cond='data:blog.url != data:post.url'> <a expr:href='data:post.url'><data:post.title/></a> <b:else/> <data:post.title/> </b:if>
+
+
+
+  <div class='mobile-index-comment'>
+    <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+      <b:if cond='data:post.allowComments'>
+        <b:if cond='data:post.numComments != 0'>
+          <b:include data='post' name='comment_count_picker'/>
+        </b:if>
+      </b:if>
+    </b:if>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<span class='post-label'> in <b:if cond='data:post.labels'>
+          <b:loop values='data:post.labels' var='label'>
+      <a expr:href='data:label.url + &quot;?&amp;max-results=10&quot;' rel='tag'><data:label.name/></a><b:if cond='data:label.isLast != &quot;true&quot;'>,</b:if>
+          </b:loop>
+        </b:if> </span>
+		
+		
+		
+		<b:includable id='previousPageLink'>
+  <a class='blog-pager-newer-link'
+     expr:href='data:newerPageUrl'
+     expr:id='data:widget.instanceId + "_blog-pager-newer-link"'
+     expr:title='data:messages.newerPosts'>
+    <data:messages.newerPosts/>
+  </a>
+</b:includable>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<b:includable id='commentAuthorAvatar'>
+  <div class='avatar-image-container'>
+    <img class='author-avatar'
+         expr:src='data:comment.authorAvatarSrc'
+         height='35'
+         width='35'/>
+  </div>
+</b:includable>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<b:includable id='addComments'>
+  <a expr:href='data:post.commentsUrl' expr:onclick='data:post.commentsUrlOnclick'>
+    <b:message name='messages.postAComment'/>
+  </a>
+</b:includable>
+
+
+
+
+
+
+
+
+<b:includable id='postLabels'>
+<b:loop values='data:posts' var='post'>
+  <b:loop values='data:widgets.Blog.first.allBylineItems where (i => i.name == "labels")' var='byline'>
+    <b:include cond='data:post.labels.any' name='postLabels'/>
+  </b:loop>
+</b:loop>
+</b:includable>
+
+
+<!-- Call custom version -->
+  <b:include name='postLabels'/>
+
+  <!-- Call server version -->
+  <b:include name='super.postLabels'/>
+
+
+
+
+
+
+
+
+
+<b:includable id='emailPostIcon'>
+  <span class='byline post-icons'>
+    <span class='item-action'>
+      <a expr:href='data:post.emailPostUrl' expr:title='data:messages.emailPost'>
+        <b:include data='{ iconClass: "touch-icon sharing-icon" }' name='emailIcon'/>
+      </a>
+    </span>
+  </span>
+</b:includable>
+
+ <!-- Call custom version -->
+  <b:include name='emailPostIcon'/>
+
+  <!-- Call server version -->
+  <b:include name='super.emailPostIcon'/>
+
+
+
+
+
+
+
+
+
+<b:includable id='postLabels'>
+  <span class='byline post-labels'>
+    <span class='byline-label'><data:byline.label/></span>
+    <b:loop index='i' values='data:post.labels' var='label'>
+      <a expr:href='data:label.url' rel='tag'>
+        <data:label.name/>
+      </a>
+    </b:loop>
+  </span>
+</b:includable>

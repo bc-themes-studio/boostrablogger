@@ -1,0 +1,33 @@
+ <b:widget id='Image' locked='false' title='yetu' type='Image' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='displayUrl'>http://2.bp.blogspot.com/-mTSpmYKDKTQ/XTD1ffQex_I/AAAAAAAALxk/QcCY4T0MVKwL_0FLQeP76vPm0aWP9HTcwCK4BGAYYCw/s1600/IMG_20170427_234537.jpg</b:widget-setting>
+              <b:widget-setting name='displayHeight'>258</b:widget-setting>
+              <b:widget-setting name='sectionWidth'>258</b:widget-setting>
+              <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
+              <b:widget-setting name='displayWidth'>194</b:widget-setting>
+              <b:widget-setting name='link'/>
+              <b:widget-setting name='caption'>mimi</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'>
+              <b:include name='widget-title'/>
+              <b:include name='content'/>
+           </b:includable>
+    <b:includable id='content'>
+      <div class='widget-content'>
+	  
+        <figure class='figure d-block mb-0'>
+          <b:tag cond='data:link' expr:href='data:link' name='a'>
+            <b:if cond='data:sourceUrl'>
+              <img class='figure-img d-block img-fluid w-100 mb-0' expr:src='data:sourceUrl'/>
+            </b:if>
+          </b:tag>
+          <b:if cond='data:caption'>
+            <figcaption class='figure-caption text-center mt-2'>
+              <data:caption/>
+            </figcaption>
+          </b:if>
+        </figure>
+		
+      </div>
+    </b:includable>
+</b:widget>

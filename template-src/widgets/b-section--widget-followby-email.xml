@@ -1,0 +1,16 @@
+ <b:widget id='FollowByEmail1' locked='false' title='Follow by Email' type='FollowByEmail' visible='true'>
+   <b:includable id='main'>
+    <b:include name='widget-title'/>
+     <b:include name='content'/>
+       </b:includable>
+      <b:includable id='content'>
+         <div class='widget-content'>
+        <form action='https://feedburner.google.com/fb/a/mailverify' expr:onsubmit='&quot;window.open(\&quot;https://feedburner.google.com/fb/a/mailverify?uri=&quot; + data:feedPath + &quot;\&quot;, \&quot;popupwindow\&quot;, \&quot;scrollbars=yes,width=550,height=520\&quot;); return true&quot;' method='post' target='popupwindow'>
+          <input autocomplete='off' class='form-control' expr:aria-label='data:messages.emailAddress' expr:placeholder='data:messages.emailAddress' name='email' type='email'/>
+          <button class='btn btn-block btn-primary text-truncate mt-2' expr:title='data:messages.getEmailNotifications' type='submit'><data:messages.getEmailNotifications/></button>
+          <input expr:value='data:feedPath' name='uri' type='hidden'/>
+          <input name='loc' type='hidden' value='en_US'/>
+        </form>
+      </div>
+    </b:includable>
+  </b:widget>

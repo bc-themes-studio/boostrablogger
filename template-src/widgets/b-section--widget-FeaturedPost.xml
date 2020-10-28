@@ -1,0 +1,33 @@
+  <b:widget id='FeaturedPost1' locked='false' title='Featured Post' type='FeaturedPost' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='showSnippet'>true</b:widget-setting>
+              <b:widget-setting name='showPostTitle'>true</b:widget-setting>
+              <b:widget-setting name='postId'>6721618882137444055</b:widget-setting>
+              <b:widget-setting name='showFirstImage'>true</b:widget-setting>
+              <b:widget-setting name='useMostRecentPost'>false</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main' var='this'>
+      <b:include name='widget-title'/>
+      <div class='widget-content'>
+        <b:loop index='i' values='data:posts' var='post'>
+		
+          <b:include cond='data:postDisplay.showFeaturedImage' data='{ size: 512, sourceSet: false, sourceSizes: false, ratioWidth: 1, ratioHeight: 1, link: true, noImage: &quot;https://placehold.it/512x512/777/eee/?text=?&quot;, imageClass: &quot;featured-post-image d-block img-fluid&quot; }' name='post.featuredImage'/>
+         
+		 <b:if cond='data:postDisplay.showTitle and data:postDisplay.showFeaturedImage'>
+		  <div class='featured-post-divider mt-2'/>
+		  </b:if>
+		  
+          <b:include cond='data:postDisplay.showTitle' data='{ heading: &quot;h5&quot;, headingClass: &quot;featured-post-title mb-0&quot;, link: true, linkClass: &quot;featured-post-title-link&quot;, noTitleMessage: false }' name='post.title'/>
+          
+		  <b:if cond='(data:postDisplay.showSnippet and data:postDisplay.showTitle) or (data:postDisplay.showSnippet and data:postDisplay.showFeaturedImage)'>
+		  <div class='featured-post-divider mt-2'/>
+		  </b:if>
+         
+		 <b:include cond='data:postDisplay.showSnippet' data='{ length: 100, links: false, linebreaks: false, ellipsis: true, notHasJumpLink: false, parentDivClass: &quot;featured-post-snippet&quot; }' name='post.snippet'/>
+        </b:loop>
+		
+		
+      </div>
+    </b:includable>
+          </b:widget>
+		  

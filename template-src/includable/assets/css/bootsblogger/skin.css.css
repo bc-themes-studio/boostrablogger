@@ -1,0 +1,26 @@
+﻿.wg-padding-y.widget{padding-top:40px; padding-bottom:40px;}
+.wg-padding-top .widget{padding-top:40px;}
+.wg-padding-bottom .widget{padding-bottom:40px;}
+
+.wg-padding-y-lg .widget{padding-top:80px;  padding-bottom:80px;}
+.wg-padding-top-lg .widget{padding-top:80px;}
+.wg-padding-bottom-lg .widget{padding-bottom:80px;}
+
+.wg-padding-y-sm .widget{padding-top:20px; padding-bottom:20px;}
+.wg-padding-top-sm .widget{padding-top:20px;}
+.wg-padding-bottom-sm .widget{padding-bottom:20px;}
+
+.wg-img-xs .widget .image{width:40px; height:40px; }
+.wg-img-sm .widget .image{width:80px; height:80px; }
+.wg-img-md .widget .image{width:140px; height:140px; }
+.wg-img-lg .widget .image{width:250px; height:250px; }
+
+.wg-icon-xs .widget .image{ width:32px;  height:32px;  line-height:32px; font-size:16px; }
+.wg-icon-sm .widget .image{ width:42px;  height:42px;  line-height:42px; font-size:20px; }
+.wg-icon-md .widget .image{width:60px;  height:60px;  line-height:60px; font-size:28px; }
+.wg-icon-lg .widget .image{width:96px;  height:96px;  line-height:96px; font-size:42px; }
+.wg-center-xy .widget{}
+.wg-center-y .widget{}
+.wg-center-x .widget{}
+.wg-absolute .widget{position:absolute}
+.wg-relative.widget{position:relative}

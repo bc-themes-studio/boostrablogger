@@ -1,0 +1,59 @@
+    <p class=’comment-footer’>
+    <a expr:href=’data:post.addCommentUrl’ expr:onclick=’data:post.addCommentOnclick’>
+    <data:postCommentMsg/></a>
+    </p>
+    </b:if>
+
+7. Then replace it with this code :
+
+    <p class=’comment-footer’>
+    <b:if cond=’data:post.embedCommentForm’>
+    <b:include data=’post’ name=’comment-form’/>
+    <b:else/> <b:if cond=’data:post.allowComments’>
+    <a expr:href=’data:post.addCommentUrl’ expr:onclick=’data:post.addCommentOnclick’>
+    <data:postCommentMsg/></a>
+    </b:if> </b:if> </p> </b:if>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.comments .comment-block { background: #F9F9F9; color: #555; box-shadow: 0 4px 10px #EEEEEE; position: relative; margin-top: 10px; margin-left: 60px; padding: 10px; border: 4px solid #EEEEEE !important; border-radius:10px; font: 1.190em/1.2 Cambria,Georgia,sans-serif;} .comment-thread li .comment-block:before { position: absolute; display: block; left: -26px; color: #EEEEEE; content: "\25C4"; font-size: 30px;} .comments .avatar-image-container { width: 60px; height: 60px; max-height: 60px; margin:0px 0px 0 -28px; padding: 0px; border: 7px solid #EEEEEE; border-radius:60px;} .comments .avatar-image-container img { overflow:hidden; width: 60px; height: 60px; max-width: 60px; border:0 !important; border-radius:60px;} .comments .comment-thread.inline-thread { background: none;} .comments .continue { border-top: 0px solid transparent;} .comments .comments-content .datetime { float: right; font-size: 11px;} .comments .comments-content .user a{ font-size: 15px; color: #498EC9;} .comments .comments-content .datetime a:hover{ color: #777; text-decoration: none;} .comments .comments-content .comment:first-child { padding-top: 0px;} .comments .comments-content .comment { margin-bottom: 0px; padding-bottom: 0px;} .comments .continue a { padding: 0px;} .comments .comments-content .icon.blog-author { background-image: none;}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<script style=text/javascript src="http://tutbig.blogspot.com/svn/trunk/recent comments widget.js"></script><script style=text/javascript >var a_rc=5;var m_rc=false;var n_rc=true;var o_rc=100;</script><script src=http://your-blog-name.blogspot.com/feeds/comments/default?alt=json-in-script&callback=showrecentcomments ></script><span id=rcw-cr><a href="http://tutbig.blogspot.com/2013/04/blogger-comments.html" rel="nofollow">Recent Comments Widget</a></span><style type=text/css> .rcw-comments a {text-transform: capitalize;} .rcw-comments {border-bottom: 1px dotted; padding-top: 7px!important; padding-bottom: 7px!important;} #rcw-cr {font-family: Arial,Tahoma;font-size:9px;padding-top:7px;display:block;} </style>

@@ -1,0 +1,11 @@
+ <b:widget id='Text' locked='false' title='mbuzi' type='Text' version='2' visible='true'>
+          <b:widget-settings>
+                        <b:widget-setting name='content'><![CDATA[mimi na marafiki wangu tunatembea wote kwa pamoja <br />]]></b:widget-setting>
+           </b:widget-settings>
+                 <b:includable id='main'>
+                    <b:include name='widget-title'/>
+                     <div class='widget-content'>
+                             <data:content/>
+                     </div>
+                  </b:includable>
+    </b:widget>

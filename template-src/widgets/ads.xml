@@ -1,0 +1,39 @@
+  <b:if cond='data:view.isLayoutMode or data:widgets any (w =&gt; w.sectionId == &quot;subscription&quot;)'>
+      <b:with value='data:widgets.AdSense any (w =&gt; w.sectionId == &quot;ads&quot;)' var='hasVerticalAds'>
+
+<b:section ads='true' class='vertical-ad-container' id='ads' name='Ads' showaddelement='false'>
+                <b:widget id='AdSense1' locked='true' title='' type='AdSense' visible='true'>
+                  <b:includable id='main'>
+  <div class='widget-content'>
+    <b:if cond='data:adCode'>
+      <data:adCode/>
+    <b:else/>
+      <b:include name='defaultAdUnit'/>
+    </b:if>
+  </div>
+</b:includable>
+                  <b:includable id='defaultAdUnit'>
+          <b:comment>Clear out style (needs to be a non-empty string)</b:comment>
+          <b:with value='&quot;/* Done in css. */&quot;' var='style'>
+            <b:include name='super.defaultAdUnit'/>
+          </b:with>
+        </b:includable>
+                </b:widget>
+                <b:widget id='AdSense2' locked='true' title='' type='AdSense' visible='true'>
+                  <b:includable id='main'>
+  <div class='widget-content'>
+    <b:if cond='data:adCode'>
+      <data:adCode/>
+    <b:else/>
+      <b:include name='defaultAdUnit'/>
+    </b:if>
+  </div>
+</b:includable>
+                  <b:includable id='defaultAdUnit'>
+          <b:comment>Clear out style (needs to be a non-empty string)</b:comment>
+          <b:with value='&quot;/* Done in css. */&quot;' var='style'>
+            <b:include name='super.defaultAdUnit'/>
+          </b:with>
+        </b:includable>
+                </b:widget>
+              </b:section>

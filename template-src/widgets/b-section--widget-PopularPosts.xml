@@ -1,0 +1,300 @@
+ <div class="album py-5 bg-light">
+        <div class="container">
+	<b:section id='b-section-popular-post' maxwidgets='3' name='Future News' showaddelement='no'>
+       <b:widget id='PopularPosts2' locked='false' title='kl;l;ljk;lkj;l' type='PopularPosts' visible='true'>
+          <b:widget-settings>
+            <b:widget-setting name='numItemsToShow'>2</b:widget-setting>
+            <b:widget-setting name='showThumbnails'>true</b:widget-setting>
+            <b:widget-setting name='showSnippets'>true</b:widget-setting>
+            <b:widget-setting name='timeRange'>LAST_YEAR</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main' var='this'>
+      <b:include name='widget-title'/>
+      <div class='widget-content'>
+        <b:loop index='i' values='data:posts' var='post'>
+		
+		<div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+				<b:class cond='data:i != (data:posts.size - 1)' name='mb-3'/>
+            <b:include cond='data:postDisplay.showFeaturedImage' data='{ size: 64, sourceSet: false, sourceSizes: false, ratioWidth: 1, ratioHeight: 1, link: true, noImage: &quot;https://placehold.it/64x64/777/eee/?text=?&quot;, imageClass: &quot;d-flex mr-3 popular-post-image&quot; }' name='post.featuredImage'/>
+                <div class="card-body">				  
+		      <b:include data='{ heading: &quot;h5&quot;, headingClass: &quot;popular-post-title mb-1&quot;, link: true, linkClass: &quot;popular-post-title-link &quot;, noTitleMessage: true }' name='post.title'/>
+              <ul class='list-inline mb-0'>
+                <li class='list-inline-item'>
+                  <i aria-hidden='true' class='fa fa-user-circle popular-post-author-icon'/>
+                  <b:include data='{ linkClass: &quot;popular-post-author&quot; }' name='post.authorName'/>
+                </li>
+                <li class='list-inline-item'>
+                  <i aria-hidden='true' class='fa fa-clock-o popular-post-date-icon'/>
+                  <b:include data='{ customFormat: &quot;MMM dd, YYYY&quot;, timeClass: &quot;popular-post-date&quot; }' name='post.datePublished'/>
+                </li>
+              </ul>
+              <b:include cond='data:postDisplay.showSnippet' data='{ length: 100, links: false, linebreaks: false, ellipsis: true, notHasJumpLink: false, parentDivClass: &quot;popular-post-snippet mt-2&quot; }' name='post.snippet'/>
+
+				 <div class="d-flex justify-content-between align-items-center">
+                    
+					<div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+			    <ul class='list-inline mb-0'>
+                  <li class='list-inline-item'>
+                  <small class="text-muted"><i aria-hidden='true' class='fa fa-clock-o popular-post-date-icon'/></small>
+                  <small class="text-muted"><b:include data='{ customFormat: &quot;MMM dd, YYYY&quot;, timeClass: &quot;popular-post-date&quot; }' name='post.datePublished'/></small>
+                </li>
+                  </ul>				
+                  </div>
+                </div>
+              </div>
+            </div>
+		</div>
+		
+		
+        
+        </b:loop>
+      </div>
+    </b:includable>
+        </b:widget>	
+  </b:section>		
+    </div>
+</div>
+		
+		 	  					 <!--<a href='https://maasaiart.blogspot.com/search/label/+?q=label:"?max-results=12'>fgfg</a>-->
+
+		
+		
+/**************************/
+ 
+
+<div class="album py-5 bg-light">
+        <div class="container">
+	<b:section id='b-section-popular-post' maxwidgets='3' name='Future News' showaddelement='no'>
+       <b:widget id='PopularPosts2' locked='false' title='kl;l;ljk;lkj;l' type='PopularPosts' visible='true'>
+          <b:widget-settings>
+            <b:widget-setting name='numItemsToShow'>2</b:widget-setting>
+            <b:widget-setting name='showThumbnails'>true</b:widget-setting>
+            <b:widget-setting name='showSnippets'>true</b:widget-setting>
+            <b:widget-setting name='timeRange'>LAST_YEAR</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main' var='this'>
+      <b:include name='widget-title'/>
+      <div class='widget-content'>
+        <b:loop index='i' values='data:posts' var='post'>
+		
+		<div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+				<b:class cond='data:i != (data:posts.size - 1)' name='mb-3'/>
+           
+                <div class="card-body">				  
+		      <b:include data='{ heading: &quot;h5&quot;, headingClass: &quot;popular-post-title mb-1&quot;, link: true, linkClass: &quot;popular-post-title-link &quot;, noTitleMessage: true }' name='post.title'/>
+              <ul class='list-inline mb-0'>
+                <li class='list-inline-item'>
+                  <i aria-hidden='true' class='fa fa-user-circle popular-post-author-icon'/>
+                  <b:include data='{ linkClass: &quot;popular-post-author&quot; }' name='post.authorName'/>
+                </li>
+                
+              </ul>
+              <b:include cond='data:postDisplay.showSnippet' data='{ length: 100, links: false, linebreaks: false, ellipsis: true, notHasJumpLink: false, parentDivClass: &quot;popular-post-snippet mt-2&quot; }' name='post.snippet'/>
+
+				 <div class="d-flex justify-content-between align-items-center">
+                    
+					<div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+			    <ul class='list-inline mb-0'>
+                  <li class='list-inline-item'>
+                  <small class="text-muted"><i aria-hidden='true' class='fa fa-clock-o popular-post-date-icon'/></small>
+                  <small class="text-muted"><b:include data='{ customFormat: &quot;MMM dd, YYYY&quot;, timeClass: &quot;popular-post-date&quot; }' name='post.datePublished'/></small>
+                </li>
+                  </ul>				
+                  </div>
+                </div>
+              </div>
+            </div>
+		</div>
+		
+		
+        
+        </b:loop>
+      </div>
+    </b:includable>
+        </b:widget>	
+  </b:section>		
+    </div>
+</div>
+		
+		
+
+
+/**********************/		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	 <b:widget id='PopularPosts2' locked='false' title='kl;l;ljk;lkj;l' type='PopularPosts' visible='true'>
+          <b:widget-settings>
+            <b:widget-setting name='numItemsToShow'>2</b:widget-setting>
+            <b:widget-setting name='showThumbnails'>true</b:widget-setting>
+            <b:widget-setting name='showSnippets'>true</b:widget-setting>
+            <b:widget-setting name='timeRange'>LAST_YEAR</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main' var='this'>
+      <b:include name='widget-title'/>
+      <div class='widget-content'>
+        <b:loop index='i' values='data:posts' var='post'>
+          <div class='media'>
+            
+			<b:class cond='data:i != (data:posts.size - 1)' name='mb-3'/>
+            <b:include cond='data:postDisplay.showFeaturedImage' data='{ size: 64, sourceSet: false, sourceSizes: false, ratioWidth: 1, ratioHeight: 1, link: true, noImage: &quot;https://placehold.it/64x64/777/eee/?text=?&quot;, imageClass: &quot;d-flex mr-3 popular-post-image&quot; }' name='post.featuredImage'/>
+            
+			<div class='media-body'>
+              <b:include data='{ heading: &quot;h5&quot;, headingClass: &quot;popular-post-title mb-1&quot;, link: true, linkClass: &quot;popular-post-title-link&quot;, noTitleMessage: true }' name='post.title'/>
+              <ul class='list-inline mb-0'>
+                <li class='list-inline-item'>
+                  <i aria-hidden='true' class='fa fa-user-circle popular-post-author-icon'/>
+                  <b:include data='{ linkClass: &quot;popular-post-author&quot; }' name='post.authorName'/>
+                </li>
+                <li class='list-inline-item'>
+                  <i aria-hidden='true' class='fa fa-clock-o popular-post-date-icon'/>
+                  <b:include data='{ customFormat: &quot;MMM dd, YYYY&quot;, timeClass: &quot;popular-post-date&quot; }' name='post.datePublished'/>
+                </li>
+              </ul>
+              <b:include cond='data:postDisplay.showSnippet' data='{ length: 100, links: false, linebreaks: false, ellipsis: true, notHasJumpLink: false, parentDivClass: &quot;popular-post-snippet mt-2&quot; }' name='post.snippet'/>
+            </div>
+			
+          </div>
+        </b:loop>
+      </div>
+    </b:includable>
+        </b:widget>	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<div class="widget PopularPosts" data-version="2" id="PopularPosts1">
+<h3 class="title">
+mimi
+</h3>
+<div class="widget-content">
+<div class="media">
+<a href="https://yangu-mimi.blogspot.com/2019/08/mimi.html">
+<img alt="Mimi" class="d-flex mr-3 popular-post-image" src="https://1.bp.blogspot.com/-YQREITFjtuA/XWr02E_HesI/AAAAAAAAAXw/de9lFm6aUjIcIYOhIFPQi1BV2K6oBY4BACLcBGAs/w64-h64-p-k-no-nu/D6IHBOvXoAAdouo.jpg%2Blarge.jpg">
+
+</a>
+<div class="media-body">
+<h5 class="popular-post-title mb-1">
+<a class="popular-post-title-link" href="https://yangu-mimi.blogspot.com/2019/08/mimi.html" title="Mimi">
+Mimi
+</a>
+</h5>
+<ul class="list-inline mb-0">
+<li class="list-inline-item">
+<i aria-hidden="true" class="fa fa-user-circle popular-post-author-icon"></i>
+<a class="popular-post-author" href="https://www.blogger.com/profile/09327382467927043677" title="BootstraBlogger">BootstraBlogger</a>
+</li>
+<li class="list-inline-item">
+<i aria-hidden="true" class="fa fa-clock-o popular-post-date-icon"></i>
+<time class="popular-post-date" datetime="2019-08-31T15:22:00-07:00" title="2019-08-31T15:22:00-07:00">
+Aug 31, 2019
+</time>
+</li>
+</ul>
+<div class="popular-post-snippet mt-2">
+Mimi na walimu washulleya msingikingin etulikwa
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************side popular-post**********************/
+        <div class="container">
+		            <div class="col-md-4">
+<b:section id='b-section-popular-post-tembo' maxwidgets='3' name='Future News' showaddelement='no'>
+       <b:widget id='PopularPosts23' locked='false' title='newssa sasa' type='PopularPosts' visible='true'>
+     <b:includable id='main'>
+	 <div class='widget-content'>
+        <b:loop index='i' values='data:posts' var='post'>		
+		<div class="card border-0 shadow mb-5 latest-posts">
+          <b:tag name='div'>
+		   <b:class name='card-header border-0 bg-primary text-white py-3'/>
+          <span class="font-weight-bold small"><b:include name='widget-title'/></span>
+         </b:tag>
+        <div class="list-group list-group-flush">
+          <a>
+        <b:include data='{ heading: &quot;h6&quot;, headingClass: &quot;list-group-item list-group-item-action popular-post-title p-4 mb-1&quot;, link: true, linkClass: &quot;popular-post-title-link &quot;, noTitleMessage: true }' name='post.title'/>
+		 <div class="latest-posts-date">
+                  <span class='list-inline d-st'>
+                    <i aria-hidden='true' class='fa fa-clock-o popular-post-date-icon'/>
+                  <b:include data='{ customFormat: &quot;MMM dd, YYYY&quot;, timeClass: &quot;latest-posts-date &quot; }' name='post.datePublished'/>
+                </span>
+           </div>
+          </a>
+       <div class="card-body">
+		   <a class='btn-all btn btn-block btn-primary'>
+            <b:attr name='href' expr:value='data:post.url'/>
+            <b:attr name='target' value='_blank'/>
+             View all posts
+          </a>
+       </div>
+     </div>
+    </div>		
+	</b:loop>
+      </div>
+    </b:includable>
+        </b:widget>	
+     </b:section>				
+    </div>
+</div>
+
+<div class="card border-0 shadow mb-5 latest-posts">
+<div class="card-header border-0 bg-primary text-white py-3">
+<span class="font-weight-bold small">Latest Posts</span>
+</div>
+
+<div class="list-group list-group-flush">
+<a class="list-group-item list-group-item-action" href="/blog/2019/02/21/bootstrap-themes-2019/">
+<h6 class="latest-posts-title mb-1">Free Bootstrap Themes - Lineup for 2019</h6>
+<div class="latest-posts-date">
+Feb 6, 2016
+</div>
+</a>
+</div>
+
+</div>		
