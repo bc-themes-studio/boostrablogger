@@ -4,7 +4,7 @@
 
 ## Status
 
-[![Build Status](https://luckmoshy.github.io/bootstrablogger/)](https://luckmoshy.github.io/bootstrablogger/)
+[![Build Status](https://luckmoshy.github.io/bootstrablogger/assets/images/logo.png)](https://luckmoshy.github.io/bootstrablogger/)
 
 
 ## Quick start
