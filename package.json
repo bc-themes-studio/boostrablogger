@@ -1,0 +1,24 @@
+{
+  "name": "blogger-main-repository",
+  "version": "1.0.0",
+  "description": "Download the entire blogger skelton on(https://github.com/luckmoshy/bootstrablogger) and learn how to use it at(https://luckmoshy.github.io/bootstrablogger/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/luckmoshy/bootstrablogger)"
+  },
+  "keywords": [
+    "Blogger",
+    "css",
+    "XML",
+    "sass",
+    "js",
+    "Bootstrap",
+    "framework"
+  ],
+  "author": "Luckmoshy (luckmoshy@gmail.com>(https://luckmoshy.github.io/)",
+  "license": "ISC"
+}
