@@ -20,7 +20,7 @@ Choose one of the following options:
 
 ## Documentation
 
-Boostrablogger's documentation, included in this repo in the root directory, is built with [Jekyll](https://jekyllrb.com) and publicly hosted on GitHub Pages at <https://github.com/luckmoshy/bootstrablogger>. The docs may also be [run locally](docs/getting-started/build-tools.md#local-documentation).
+Boostrablogger's documentation, included in this repo in the root directory, is built with [Jekyll](https://jekyllrb.com) and publicly hosted on GitHub Pages at <https://github.com/luckmoshy/bootstrablogger>).
 
 
 ## Contributing
@@ -30,4 +30,4 @@ Please read through our [contributing guidelines](.github/CONTRIBUTING.md). Incl
 
 ## Copyright and license
 
-Code and documentation copyright 2020 luck moshy. Code released under the [MIT License](LICENSE). Docs released under [Creative Commons](docs/LICENSE).
+Code and documentation copyright 2020 luck moshy. Code released under the [MIT License](LICENSE). Docs released under [CreativeCommons]().
